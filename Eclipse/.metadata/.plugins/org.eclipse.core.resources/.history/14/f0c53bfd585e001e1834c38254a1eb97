@@ -1,0 +1,32 @@
+package view;
+
+import controller.EmpleadoController;
+
+public class ViewController {
+
+	public static void main(String[] args) {
+		//CREAR EMPLEADO
+		//String emp = new EmpleadoController().crearEmpleado("Yparraguirre Rinza", "Edwin Smith", 23, "Masculino", 15000);
+		//System.out.print(emp);
+		//String emp2 = new EmpleadoController().crearEmpleado("Flores Rosas", "Ana Gabriela", 33, "Femenino", 12000);
+		//System.out.print(emp2);
+		//String emp3 = new EmpleadoController().crearEmpleado("Rojas Ruiz", "Alex Luis", 28, "Masculino", 10000);
+		//System.out.print(emp3);
+		//String emp4 = new EmpleadoController().crearEmpleado("Pinedo Rivera", "Melodi Maria", 26, "Femenino", 14000);
+		//System.out.print(emp4);
+		
+		//ELIMINAR EMPLEADO
+		String emp = new EmpleadoController().eliminarEmpleado(2);
+		System.out.print(emp2);
+		
+		//ACTUALIZAR EMPLEADO
+		//String emp = new EmpleadoController().updateUser(2, "Antonio", "Huamani", "Perú");
+		//System.out.print(emp);
+		
+		//LISTAR EMPLEADO
+		//String emp = new EmpleadoController().listarEmpleado(2);
+		//System.out.print(emp);
+
+	}
+
+}

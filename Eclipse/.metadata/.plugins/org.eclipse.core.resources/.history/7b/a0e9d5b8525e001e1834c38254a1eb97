@@ -1,0 +1,16 @@
+package controller;
+
+import java.lang.module.Configuration;
+
+import com.mysql.cj.Session;
+import com.mysql.cj.xdevapi.SessionFactory;
+import models.Empleado;
+
+public class EmpleadoController {
+	
+	public String CrearEmpleado(String apellidos, String nombres, int edad, String sexo, int salario) {
+		SessionFactory sessionfactory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Empleado.class).buildSessionFactory();
+		
+		Session session = sessionfactory.openSession();
+	}
+}

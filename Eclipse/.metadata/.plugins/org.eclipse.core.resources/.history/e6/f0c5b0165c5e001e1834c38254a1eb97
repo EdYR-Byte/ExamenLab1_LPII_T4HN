@@ -1,0 +1,18 @@
+package view;
+
+import controller.EmpleadoController;
+
+public class ViewController {
+
+	public static void main(String[] args) {
+		//CREAR EMPLEADO
+		//String emp = new EmpleadoController().crearEmpleado("Yparraguirre Rinza", "Edwin Smith", 23, "Masculino", 15000);
+		//System.out.print(emp);
+		
+		//ELIMINAR EMPLEADO
+		String emp = new EmpleadoController().eliminarEmpleado(1);
+		System.out.println(emp);
+
+	}
+
+}

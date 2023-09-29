@@ -1,0 +1,26 @@
+package view;
+
+import controller.EmpleadoController;
+
+public class ViewController {
+
+	public static void main(String[] args) {
+		//CREAR EMPLEADO
+		//String emp = new UsuarioController().createUser("Rolando", "Davila", "Mexico");
+		//System.out.print(emp);
+		
+		//ELIMINAR EMPLEADO
+		//String emp = new UsuarioController().deleteUser(1);
+		//System.out.print(emp);
+		
+		//ACTUALIZAR EMPLEADO
+		//String emp = new UsuarioController().updateUser(2, "Antonio", "Huamani", "Perú");
+		//System.out.print(emp);
+		
+		//LISTAR EMPLEADO
+		//String emp = new EmpleadoController().listarEmpleado(2);
+		//System.out.print(emp);
+
+	}
+
+}
